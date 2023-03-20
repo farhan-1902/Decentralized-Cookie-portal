@@ -1,0 +1,62 @@
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 64px;
+  }
+  
+  .dataContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+  }
+  
+  .header {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+  }
+  
+  .bio {
+    text-align: center;
+    color: gray;
+    margin-top: 16px;
+  }
+  
+  .cookieButton {
+    cursor: pointer;
+    margin-top: 16px;
+    padding: 8px;
+    border: 0;
+    border-radius: 5px;
+  }
+
+  .walletButton {
+    cursor: pointer;
+    margin-top: 16px;
+    padding: 8px;
+    border: 0;
+    border-radius: 5px;
+  }
+
+  .cookiecount {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: gray;
+  }
+
+  .cookienotice {
+    position: absolute;
+    top: 35px;
+    right: 0px;
+    color: gray;
+  }
+
+  .loading {
+    /* display: none; */
+    text-align: center;
+    position: relative;
+    top: 30px;
+  }
